@@ -3,15 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="browserName" value="chrome"/>
   <parameter name="runLocation" value="local"/>
+  <listeners>
+    <listener class-name="utils.listeners.TestListener"/>
+    <listener class-name="utils.listeners.AnnotationTransformer"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.clearTrip.com.TestBooking.verifyIxigo">
+      <class name="org.clearTrip.com.TestBooking.verifyClearTrip">
         <methods>
           <include name="driverClose"/>
-          <include name="verifyIxigoPageIsLoaded"/>
+          <include name="startApplication"/>
+          <include name="verifyClearTripHomePageDefaultsValues" invocation-numbers="0"/>
           <include name="driverSetup"/>
         </methods>
-      </class> <!-- org.clearTrip.com.TestBooking.verifyIxigo -->
+      </class> <!-- org.clearTrip.com.TestBooking.verifyClearTrip -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

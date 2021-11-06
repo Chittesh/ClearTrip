@@ -1,5 +1,6 @@
 package org.clearTrip.com.TestBooking;
 
+import java.time.Duration;
 import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
 
@@ -9,6 +10,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import utils.logs.Log;
 
 /**
  * @author chicharles
@@ -32,7 +35,7 @@ public class BasePage {
 	 * @Desciption : Method to wait for page to get loaded
 	 */
 	public void waitForPageToLoad() {
-		this.driver.manage().timeouts().pageLoadTimeout(360, TimeUnit.SECONDS);
+		this.driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 	}
 
 	/**
@@ -48,10 +51,15 @@ public class BasePage {
 	 * @Desciption : Method to verify element is loaded
 	 */
 	public boolean verifyElementIsPresent(String xpathOfElement) {
-		WebDriverWait wait = new WebDriverWait(driver, 40);
+		Log.info("Checking Xpath : "+xpathOfElement);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement elm;
-		elm = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpathOfElement)));
-		return elm.isDisplayed();
+		try {
+			elm = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpathOfElement)));
+			return elm.isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
 
 	}
 

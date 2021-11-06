@@ -77,3 +77,161 @@
 [INFO ] 2021-11-06 17:45:01.435 [main] Log - Verifying Clear trip Home Page Logo is present
 [INFO ] 2021-11-06 17:45:04.849 [main] Log - verifyClearTripPageIsLoaded test is failed.
 [INFO ] 2021-11-06 17:45:04.926 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 17:55:11.802 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:55:11.846 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:55:12.255 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:55:12.782 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:57:56.533 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:57:56.564 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:57:56.897 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:57:57.302 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:58:08.758 [main] Log - verifyClearTripPageIsLoaded test is skipped.
+[INFO ] 2021-11-06 17:58:08.761 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:58:08.765 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 17:58:08.915 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 18:00:44.924 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:00:44.942 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:00:47.430 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:00:47.953 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:00:53.211 [main] Log - verifyClearTripPageIsLoaded test is skipped.
+[INFO ] 2021-11-06 18:00:53.215 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:00:53.218 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 18:00:53.474 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 18:02:18.799 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:02:18.829 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:02:20.845 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:02:21.550 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:03:43.909 [main] Log - verifyClearTripPageIsLoaded test is skipped.
+[INFO ] 2021-11-06 18:03:43.922 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:03:43.948 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 18:03:44.345 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 18:07:31.202 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:07:31.233 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:07:33.144 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:07:33.651 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:07:33.795 [main] Log - Verifying From Location input is present
+[INFO ] 2021-11-06 18:10:08.057 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:10:08.091 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:10:10.945 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:10:11.504 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:10:11.649 [main] Log - Verifying From Location input is present
+[INFO ] 2021-11-06 18:11:52.297 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 18:11:52.371 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 18:12:31.781 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:12:31.810 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:12:34.047 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:12:34.809 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:12:34.965 [main] Log - Verifying From Location input is present
+[INFO ] 2021-11-06 18:13:30.403 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:13:30.445 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:13:32.755 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:13:33.537 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:13:40.089 [main] Log - Verifying From Location input is present
+[INFO ] 2021-11-06 18:15:03.532 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:15:03.581 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:15:06.552 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:15:07.117 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:15:20.662 [main] Log - Verifying From Location input is present
+[INFO ] 2021-11-06 18:16:13.020 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:16:13.067 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:16:14.996 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:16:15.646 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:18:18.333 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:18:18.376 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:18:20.383 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:18:21.040 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:18:40.430 [main] Log - Verifying From Location input is present
+[INFO ] 2021-11-06 18:26:48.414 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:26:48.444 [main] Log - verifyClearTripPageIsLoaded test is skipped.
+[INFO ] 2021-11-06 18:26:48.877 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 18:26:48.894 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 18:28:12.967 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:28:13.003 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:28:15.256 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:28:16.035 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:28:16.198 [main] Log - Verifying From Location input is present
+[INFO ] 2021-11-06 18:28:46.461 [main] Log - verifyClearTripPageIsLoaded test is skipped.
+[INFO ] 2021-11-06 18:28:46.467 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:28:46.472 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 18:28:46.711 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 18:36:05.904 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 18:36:05.963 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 18:36:08.308 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:36:08.817 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 18:36:08.914 [main] Log - Verifying From Location input is present
+[INFO ] 2021-11-06 18:36:39.216 [main] Log - verifyClearTripPageIsLoaded test is skipped.
+[INFO ] 2021-11-06 18:36:39.222 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 18:36:39.230 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 18:36:39.378 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 19:30:25.281 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 19:30:25.325 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 19:30:27.502 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 19:30:27.935 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-06 19:30:28.677 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-06 19:30:28.715 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-06 19:30:28.748 [main] Log - verifyClearTripPageIsLoaded test is succeed.
+[INFO ] 2021-11-06 19:30:28.777 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 21:16:17.535 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 21:16:17.566 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 21:16:19.849 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-06 21:16:20.365 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-06 21:16:20.413 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-06 21:16:20.512 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-06 21:16:20.578 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-06 21:16:20.649 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-06 21:16:20.725 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-06 21:16:20.779 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-06 21:16:20.837 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-06 21:16:20.891 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-06 21:16:20.952 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-06 21:16:21.043 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-06 21:16:21.094 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-06 21:16:21.120 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-06 21:16:21.142 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-06 21:16:21.173 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-06 21:16:21.617 [main] Log - verifyClearTripHomePageDefaultsValues test is skipped.
+[INFO ] 2021-11-06 21:16:21.622 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-06 21:16:21.624 [main] Log - verifyClearTripHomePageDefaultsValues test is failed.
+[INFO ] 2021-11-06 21:16:21.765 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 21:18:32.804 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 21:18:32.827 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 21:18:35.470 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-06 21:18:36.184 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-06 21:18:36.237 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-06 21:18:36.343 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-06 21:18:36.415 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-06 21:18:36.488 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-06 21:18:36.551 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-06 21:18:36.616 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-06 21:18:36.667 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-06 21:18:36.716 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-06 21:18:36.771 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-06 21:18:36.820 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-06 21:18:36.876 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-06 21:18:36.901 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-06 21:18:36.928 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-06 21:18:36.952 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-06 21:18:37.511 [main] Log - verifyClearTripHomePageDefaultsValues test is skipped.
+[INFO ] 2021-11-06 21:18:37.514 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-06 21:18:37.518 [main] Log - verifyClearTripHomePageDefaultsValues test is failed.
+[INFO ] 2021-11-06 21:18:37.686 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 21:19:17.393 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 21:19:17.450 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 21:19:19.757 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-06 21:19:20.186 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-06 21:19:20.220 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-06 21:19:20.317 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-06 21:19:20.393 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-06 21:19:20.471 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-06 21:19:20.530 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-06 21:19:20.582 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-06 21:19:20.639 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-06 21:19:20.685 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-06 21:19:20.741 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-06 21:19:20.800 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-06 21:19:20.848 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-06 21:19:20.875 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-06 21:19:20.893 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-06 21:19:20.911 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-06 21:19:21.268 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-06 21:19:21.289 [main] Log - I am in onFinish method Test

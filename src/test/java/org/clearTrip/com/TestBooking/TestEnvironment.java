@@ -6,6 +6,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
@@ -39,20 +41,22 @@ public class TestEnvironment {
 			options.addArguments("--disable-notifications");
 			//options.addArguments("--headless");
 
-			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-			driver = new ChromeDriver(capabilities);
-			driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
-			driver.manage().window().maximize();
+			//driver.manage().window().maximize();
+			 driver = new ChromeDriver(options);
+			 driver.manage().window().maximize();
 		}else if (runLocation.contains("docker")) {
 			// To Get Name From testng xml file
 			String testName = ctx.getCurrentXmlTest().getName();
 
 			DesiredCapabilities capabilities = null;
 			if (browserName.contains("chrome")) {
-				capabilities = DesiredCapabilities.chrome();
+				 ChromeOptions options = new ChromeOptions();
+			        options.setAcceptInsecureCerts(true);
+			        ChromeDriver driver = new ChromeDriver(options);
 			} else if (browserName.contains("firefox")) {
-				capabilities = DesiredCapabilities.firefox();
+				FirefoxOptions options = new FirefoxOptions();
+				 options.setAcceptInsecureCerts(true);
+			        FirefoxDriver driver = new FirefoxDriver(options);
 			}
 			String host = "localhost";
 			if (System.getProperty("HUB_HOST") != null) {

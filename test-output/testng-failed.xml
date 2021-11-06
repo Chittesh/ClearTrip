@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="runLocation" value="local"/>
+  <listeners>
+    <listener class-name="utils.listeners.TestListener"/>
+    <listener class-name="utils.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="org.clearTrip.com.TestBooking.verifyClearTrip">
         <methods>
-          <include name="verifyClearTripPageIsLoaded"/>
           <include name="driverClose"/>
+          <include name="startApplication"/>
+          <include name="verifyClearTripHomePageDefaultsValues" invocation-numbers="0"/>
           <include name="driverSetup"/>
         </methods>
       </class> <!-- org.clearTrip.com.TestBooking.verifyClearTrip -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
