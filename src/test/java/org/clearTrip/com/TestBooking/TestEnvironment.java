@@ -35,13 +35,33 @@ public class TestEnvironment {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--incognito");
 			options.addArguments("--disable-popup-blocking");
-			options.addArguments("test-type");
+			options.addArguments("--test-type");
 			options.addArguments("--disable-notifications");
+			//options.addArguments("--headless");
+
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 			driver = new ChromeDriver(capabilities);
 			driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
+		}else if (runLocation.contains("docker")) {
+			// To Get Name From testng xml file
+			String testName = ctx.getCurrentXmlTest().getName();
+
+			DesiredCapabilities capabilities = null;
+			if (browserName.contains("chrome")) {
+				capabilities = DesiredCapabilities.chrome();
+			} else if (browserName.contains("firefox")) {
+				capabilities = DesiredCapabilities.firefox();
+			}
+			String host = "localhost";
+			if (System.getProperty("HUB_HOST") != null) {
+				host = System.getProperty("HUB_HOST");
+			}
+			URL objURL = new URL("http://" + host + ":4444/wd/hub");
+			capabilities.setCapability("name", testName);
+			driver = new RemoteWebDriver(objURL, capabilities);
+
 		}
 	}
 

@@ -54,7 +54,7 @@ public class ClearTripHomePage extends BasePage {
 	 * @return Boolean
 	 */
 	public String getDefaultDepartureDate() {
-		return getAttributeValue(webElmDepart);
+		return getTextValue(webElmDepart);
 	}
 
 	/**
@@ -62,7 +62,7 @@ public class ClearTripHomePage extends BasePage {
 	 * @return Boolean
 	 */
 	public String getDefaultReturnDate() {
-		return getAttributeValue(webElmReturn);
+		return getTextValue(webElmReturn);
 	}
 
 	/**

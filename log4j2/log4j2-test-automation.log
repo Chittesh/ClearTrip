@@ -19,3 +19,61 @@
 [INFO ] 2021-11-06 15:58:52.995 [main] Log - Tests is starting!
 [INFO ] 2021-11-06 15:58:58.082 [main] Log - verifyClearTripPageIsLoaded test is succeed.
 [INFO ] 2021-11-06 15:58:58.136 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 17:27:52.931 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:27:53.013 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:27:56.606 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:27:57.286 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:27:57.522 [main] Log - Verifying From Location input is present
+[INFO ] 2021-11-06 17:27:57.751 [main] Log - Verifying Default Departure Date
+[INFO ] 2021-11-06 17:29:23.771 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:29:23.852 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:29:27.344 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:29:28.391 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:29:28.586 [main] Log - Verifying From Location input is present
+[INFO ] 2021-11-06 17:29:28.749 [main] Log - Verifying Default Departure Date
+[INFO ] 2021-11-06 17:30:40.984 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:30:41.059 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:30:41.726 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:30:42.497 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:31:31.398 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:31:31.482 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:31:32.812 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:31:33.421 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:32:04.911 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 17:32:04.966 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 17:32:20.500 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:32:20.567 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:32:20.894 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:32:21.460 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:32:25.738 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 17:32:25.820 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 17:33:44.508 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:33:44.600 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:33:44.938 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:33:45.562 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:33:52.247 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 17:33:52.309 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 17:34:27.021 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:34:27.085 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:34:27.604 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:34:28.172 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:37:36.760 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:37:36.852 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:37:37.202 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:38:35.796 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:38:35.871 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:38:36.383 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:41:49.794 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:41:49.843 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:41:50.161 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:41:50.606 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:42:41.370 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:42:41.435 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:42:41.824 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:42:42.295 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:45:00.433 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 17:45:00.506 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 17:45:00.899 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 17:45:01.435 [main] Log - Verifying Clear trip Home Page Logo is present
+[INFO ] 2021-11-06 17:45:04.849 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 17:45:04.926 [main] Log - I am in onFinish method Test

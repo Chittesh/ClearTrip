@@ -40,7 +40,8 @@ public class BasePage {
 	 */
 	public void launchPage() {
 		System.out.println("Launching URL");
-		driver.get(urls.getString("baseUrl"));
+		driver.manage().deleteAllCookies();
+		driver.navigate().to(urls.getString("baseUrl"));
 	}
 
 	/**
@@ -64,11 +65,11 @@ public class BasePage {
 	}
 
 	/**
-	 * @Desciption : Method to get value attribute
+	 * @Desciption : Method to get text value
 	 */
-	public String getAttributeValue(WebElement element) {
+	public String getTextValue(WebElement element) {
 		verifyElementIsPresent(getLocatorInfo(element));
 		WebElement text = driver.findElement(By.xpath(getLocatorInfo(element) + "//div"));
-		return text.getAttribute("value");
+		return text.getText();
 	}
 }

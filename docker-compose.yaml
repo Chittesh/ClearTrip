@@ -1,0 +1,18 @@
+version: "3"
+services:
+  hubervice:
+    image: selenium/hub:3.14
+    ports:
+      - "4448:4444"
+  chromeservice:
+    image: selenium/node-chrome:3.14
+    depends_on:
+      - hubervice
+    environment:
+      - HUB_HOST=hubervice
+  firefoxservice:
+    image: selenium/node-firefox:3.14
+    depends_on:
+      - hubervice
+    environment:
+      - HUB_HOST=hubervice
