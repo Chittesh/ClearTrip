@@ -58,11 +58,29 @@ public class ClearTripHomePage extends BasePage {
 	}
 
 	/**
-	 * @Description : Method to get the default Retrun date
+	 * @Description : Method to get the default Return date
 	 * @return Boolean
 	 */
 	public String getDefaultReturnDate() {
 		return getAttributeValue(webElmReturn);
+	}
+
+	/**
+	 * @Description : Method to get count of travel mode radio buttons
+	 * @return int
+	 */
+	public int getDefaultTravelModesCount() {
+		return lstTravelModes.size();
+	}
+
+	/**
+	 * @Description : Method to select travel radio button
+	 */
+	public void selectMode(String tripMode) {
+		String xpath = "//p[contains(text(),'" + tripMode + "')]/ancestor::label/..//input";
+		verifyElementIsPresent(xpath);
+		WebElement radio = driver.findElement(By.xpath(xpath));
+		radio.click();
 	}
 
 }

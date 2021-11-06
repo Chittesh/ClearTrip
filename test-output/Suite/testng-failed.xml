@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="runLocation" value="local"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.clearTrip.com.TestBooking.verifyIxigo">
+        <methods>
+          <include name="driverClose"/>
+          <include name="verifyIxigoPageIsLoaded"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- org.clearTrip.com.TestBooking.verifyIxigo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
