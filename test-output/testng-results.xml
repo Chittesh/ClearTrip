@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3712" started-at="2021-11-06T05:32:17Z" finished-at="2021-11-06T05:32:21Z">
+  <suite name="Suite" duration-ms="7009" started-at="2021-11-06T10:28:51Z" finished-at="2021-11-06T10:28:58Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3712" started-at="2021-11-06T05:32:17Z" finished-at="2021-11-06T05:32:21Z">
+    <test name="Test" duration-ms="7009" started-at="2021-11-06T10:28:51Z" finished-at="2021-11-06T10:28:58Z">
       <class name="org.clearTrip.com.TestBooking.verifyClearTrip">
-        <test-method status="PASS" signature="driverSetup(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.clearTrip.com.TestBooking.verifyClearTrip@42eca56e]" name="driverSetup" is-config="true" duration-ms="3839" started-at="2021-11-06T05:32:13Z" finished-at="2021-11-06T05:32:17Z">
+        <test-method status="PASS" signature="driverSetup(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.clearTrip.com.TestBooking.verifyClearTrip@8e24743]" name="driverSetup" is-config="true" duration-ms="5734" started-at="2021-11-06T10:28:45Z" finished-at="2021-11-06T10:28:51Z">
           <params>
             <param index="0">
               <value>
@@ -21,18 +21,25 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@4b2a01d4]]>
+                <![CDATA[org.testng.TestRunner@15d0849]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method status="PASS" signature="verifyClearTripPageIsLoaded()[pri:0, instance:org.clearTrip.com.TestBooking.verifyClearTrip@42eca56e]" name="verifyClearTripPageIsLoaded" duration-ms="3685" started-at="2021-11-06T05:32:17Z" finished-at="2021-11-06T05:32:21Z">
+        <test-method status="PASS" signature="verifyClearTripPageIsLoaded(java.lang.reflect.Method)[pri:0, instance:org.clearTrip.com.TestBooking.verifyClearTrip@8e24743]" name="verifyClearTripPageIsLoaded" duration-ms="5718" started-at="2021-11-06T10:28:52Z" description="Verify Clear trip HomePage" finished-at="2021-11-06T10:28:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.clearTrip.com.TestBooking.verifyClearTrip.verifyClearTripPageIsLoaded(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClearTripPageIsLoaded -->
-        <test-method status="PASS" signature="driverClose()[pri:0, instance:org.clearTrip.com.TestBooking.verifyClearTrip@42eca56e]" name="driverClose" is-config="true" duration-ms="782" started-at="2021-11-06T05:32:21Z" finished-at="2021-11-06T05:32:22Z">
+        <test-method status="PASS" signature="driverClose()[pri:0, instance:org.clearTrip.com.TestBooking.verifyClearTrip@8e24743]" name="driverClose" is-config="true" duration-ms="999" started-at="2021-11-06T10:28:59Z" finished-at="2021-11-06T10:29:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->

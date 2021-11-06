@@ -23,7 +23,7 @@ import io.github.bonigarcia.wdm.config.DriverManagerType;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
 public class TestEnvironment {
-	static WebDriver driver;
+	protected static WebDriver driver;
 
 	@BeforeSuite(alwaysRun = true)
 	@Parameters({ "runLocation", "browserName" })

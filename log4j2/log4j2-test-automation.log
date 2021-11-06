@@ -1,0 +1,21 @@
+[INFO ] 2021-11-06 15:38:29.202 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 15:38:29.251 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 15:38:29.252 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 15:38:32.590 [main] Log - verifyClearTripPageIsLoaded test is succeed.
+[INFO ] 2021-11-06 15:38:33.382 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 15:38:33.781 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 15:46:10.763 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 15:46:10.810 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 15:46:10.810 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 15:46:14.246 [main] Log - verifyClearTripPageIsLoaded test is succeed.
+[INFO ] 2021-11-06 15:46:14.773 [main] Log - verifyClearTripPageIsLoaded test is failed.
+[INFO ] 2021-11-06 15:46:15.199 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-06 15:51:35.318 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 15:51:35.367 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 15:51:35.368 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 15:51:38.765 [main] Log - verifyClearTripPageIsLoaded test is succeed.
+[INFO ] 2021-11-06 15:58:52.331 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-06 15:58:52.373 [main] Log - verifyClearTripPageIsLoaded test is starting.
+[INFO ] 2021-11-06 15:58:52.995 [main] Log - Tests is starting!
+[INFO ] 2021-11-06 15:58:58.082 [main] Log - verifyClearTripPageIsLoaded test is succeed.
+[INFO ] 2021-11-06 15:58:58.136 [main] Log - I am in onFinish method Test
