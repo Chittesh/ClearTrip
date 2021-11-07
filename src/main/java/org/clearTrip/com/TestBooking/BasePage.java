@@ -140,7 +140,7 @@ public class BasePage {
 		verifyElementIsPresent(dateToBeSelected);
 		driver.findElement(By.xpath(dateToBeSelected)).click();
 	}
-	
+
 	public void wait(int milliseconds) {
 		try {
 			Thread.sleep(milliseconds * 1000);

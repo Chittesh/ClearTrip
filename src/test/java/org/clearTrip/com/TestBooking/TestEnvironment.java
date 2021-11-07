@@ -40,24 +40,24 @@ public class TestEnvironment {
 			options.addArguments("test-type");
 			options.addArguments("--disable-notifications");
 			options.setAcceptInsecureCerts(true);
-			//options.addArguments("--headless");
+			// options.addArguments("--headless");
 
-			//driver.manage().window().maximize();
-			 driver = new ChromeDriver(options);
-			 driver.manage().window().maximize();
-		}else if (runLocation.contains("docker")) {
+			// driver.manage().window().maximize();
+			driver = new ChromeDriver(options);
+			driver.manage().window().maximize();
+		} else if (runLocation.contains("docker")) {
 			// To Get Name From testng xml file
 			String testName = ctx.getCurrentXmlTest().getName();
 
 			DesiredCapabilities capabilities = null;
 			if (browserName.contains("chrome")) {
-				 ChromeOptions options = new ChromeOptions();
-			        options.setAcceptInsecureCerts(true);
-			        ChromeDriver driver = new ChromeDriver(options);
+				ChromeOptions options = new ChromeOptions();
+				options.setAcceptInsecureCerts(true);
+				ChromeDriver driver = new ChromeDriver(options);
 			} else if (browserName.contains("firefox")) {
 				FirefoxOptions options = new FirefoxOptions();
-				 options.setAcceptInsecureCerts(true);
-			        FirefoxDriver driver = new FirefoxDriver(options);
+				options.setAcceptInsecureCerts(true);
+				FirefoxDriver driver = new FirefoxDriver(options);
 			}
 			String host = "localhost";
 			if (System.getProperty("HUB_HOST") != null) {

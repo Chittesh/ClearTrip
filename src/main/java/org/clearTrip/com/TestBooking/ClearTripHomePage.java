@@ -167,9 +167,11 @@ public class ClearTripHomePage extends BasePage {
 		elmSearchFlight.click();
 		wait(2);
 	}
-	
-	public void selectingFiledsForOneWay(String fromLocation, String toLocation, String departDate
-			, String adultCount, String childCount, String infantCount) {
+	/**
+	 * @Description : Method to select fields for One way Trip
+	 */
+	public void selectingFiledsForOneWay(String fromLocation, String toLocation, String departDate, String adultCount,
+			String childCount, String infantCount) {
 		webElmFromInput.click();
 		webElmFromInput.sendKeys(fromLocation);
 		wait(2);

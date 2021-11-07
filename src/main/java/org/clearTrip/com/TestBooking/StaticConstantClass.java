@@ -20,5 +20,4 @@ public class StaticConstantClass {
 	public static final String dateFiledFormat = "dd/MM/yyy";
 	public static final String expdateFiledFormat = "EEE, MMM d";
 
-
 }
