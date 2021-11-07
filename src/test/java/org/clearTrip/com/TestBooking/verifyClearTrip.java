@@ -14,9 +14,9 @@ import java.util.Map.Entry;
 
 public class verifyClearTrip extends TestEnvironment {
 
-	static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("EEE, MMM d");
-	static final String expectedDepartureDate = dtf.format(LocalDateTime.now());
 
+	
+	
 	@BeforeTest()
 	public void startApplication() {
 		BasePage objBasePage = new BasePage(driver);
@@ -75,6 +75,31 @@ public class verifyClearTrip extends TestEnvironment {
 		Assert.assertEquals(hmDefaultPassangerValues.get("Infant Age"), StaticConstantClass.expectedInfantDefaultValue,
 				"Verify Infant Default Actual : " + hmDefaultPassangerValues.get("Infant Age") + " Expected is : "
 						+ StaticConstantClass.expectedInfantDefaultValue);
+	}
+	
+	
+	@Test(priority = 1, description = "verify Booking Tickets")
+	public void verifyBookingTickets(Method method) {
+		BasePage objBasePage = new BasePage(driver);
+		ClearTripHomePage objClearTripHomePage = new ClearTripHomePage(driver);
+		// ExtentReports Description
+		startTest(method.getName(), "verify Booking Tickets");
+
+		Log.info("verify Booking Tickets");
+		objClearTripHomePage.selectMode(StaticConstantClass.roundTrip);
+
+		Log.info("Verifying Return date field is present");
+		Assert.assertTrue(objClearTripHomePage.verifyReturnFiled(), "Verify Return date field");
+
+		Log.info("Selecting Round trip fileds");
+		objBasePage.setDates(StaticConstantClass.dateFiledFormat);
+		objClearTripHomePage.selectingFiledsForRoundTrip(StaticConstantClass.fromLocation,
+				StaticConstantClass.toLocation, objBasePage.fromDate, objBasePage.toDate,
+				StaticConstantClass.adultCount, StaticConstantClass.childCount, StaticConstantClass.infantCount);
+		
+		Log.info("Hitting search Button");
+		objClearTripHomePage.clickOnSearch();
+
 	}
 
 }

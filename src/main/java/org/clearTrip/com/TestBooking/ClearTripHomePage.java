@@ -11,6 +11,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import utils.logs.Log;
+
 public class ClearTripHomePage extends BasePage {
 
 	@FindBy(xpath = "//a[@class='ctBrand']")
@@ -20,9 +22,9 @@ public class ClearTripHomePage extends BasePage {
 	@FindBy(xpath = "//label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']")
 	private WebElement webElmToInput;
 	@FindBy(xpath = "//input[contains(@name,'depart')]")
-	private WebElement webElmDepart;
+	private WebElement webElmDepartDate;
 	@FindBy(xpath = "//input[contains(@name,'return')]")
-	private WebElement webElmReturn;
+	private WebElement webElmReturnDate;
 	@FindBy(xpath = "//*[contains(text(),'One way')]/ancestor::ul//li")
 	private List<WebElement> lstTravelModes;
 	@FindBy(xpath = "//*[contains(text(),'One way')]/ancestor::li//input")
@@ -39,7 +41,6 @@ public class ClearTripHomePage extends BasePage {
 	private WebElement elmInfantSelector;
 	@FindBy(xpath = "//*[@id='submit_search_form']")
 	private WebElement elmSearchFlight;
-
 	@FindBy(xpath = "//*[@id='adults_selector']/..//span")
 	private WebElement elmAdultSelectorDefault;
 	@FindBy(xpath = "//*[@id='children_selector']/..//span")
@@ -69,12 +70,20 @@ public class ClearTripHomePage extends BasePage {
 		hm.put("Multi City Radio button", verifyElementIsPresent(getLocatorInfo(elmMultiCityInput)));
 		hm.put("From Input Filed", verifyElementIsPresent(getLocatorInfo(webElmFromInput)));
 		hm.put("To Input Filed", verifyElementIsPresent(getLocatorInfo(webElmToInput)));
-		hm.put("Departure Date Filed", verifyElementIsPresent(getLocatorInfo(webElmDepart)));
+		hm.put("Departure Date Filed", verifyElementIsPresent(getLocatorInfo(webElmDepartDate)));
 		hm.put("Adult Drop Down", verifyElementIsPresent(getLocatorInfo(elmAdultSelector)));
 		hm.put("Children Drop Down", verifyElementIsPresent(getLocatorInfo(elmchildrenSelector)));
 		hm.put("Infant Drop Down", verifyElementIsPresent(getLocatorInfo(elmInfantSelector)));
 		hm.put("Search Button", verifyElementIsPresent(getLocatorInfo(elmSearchFlight)));
 		return hm;
+	}
+
+	/**
+	 * @Description : Method to verify Return date filed is present
+	 * @return booelan
+	 */
+	public Boolean verifyReturnFiled() {
+		return verifyElementIsPresent(getLocatorInfo(webElmReturnDate));
 	}
 
 	/**
@@ -89,16 +98,23 @@ public class ClearTripHomePage extends BasePage {
 	 * @Description : Method to select travel radio button
 	 */
 	public void selectMode(String tripMode) {
-		String xpath = "//p[contains(text(),'" + tripMode + "')]/ancestor::label/..//input";
+		Log.info("Selecting " + tripMode + " Travel mode");
+		String xpath = "//*[contains(text(),'" + tripMode + "')]/ancestor::li//input";
 		verifyElementIsPresent(xpath);
 		WebElement radio = driver.findElement(By.xpath(xpath));
 		radio.click();
 	}
 
+	/**
+	 * @Description : Method to check one way radio button is selected
+	 */
 	public boolean verifyOneWayRadioButtonIsChecked() {
 		return elmOneWayInput.isSelected();
 	}
 
+	/**
+	 * @Description : Method to get default people count
+	 */
 	public HashMap<String, String> getDefaultPeopleCountAndAgeLimit() {
 		HashMap<String, String> hm = new HashMap<String, String>();
 		hm.put("Adult Drop Down", getDefultValueFromSelectDropDown(elmAdultSelector));
@@ -110,10 +126,34 @@ public class ClearTripHomePage extends BasePage {
 		return hm;
 	}
 
-	public String getDefultValueFromSelectDropDown(WebElement elm) {
-		Select se = new Select(driver.findElement(By.xpath(getLocatorInfo(elm))));
-		WebElement firstSelectedOption = se.getFirstSelectedOption();
-		return firstSelectedOption.getText();
+	/**
+	 * @Description : Method to select fields for Round trip
+	 */
+
+	public void selectingFiledsForRoundTrip(String fromLocation, String toLocation, String departDate,
+			String returnDate, String adultCount, String childCount, String infantCount) {
+		webElmFromInput.click();
+		webElmFromInput.sendKeys(fromLocation);
+		webElmFromInput.sendKeys(Keys.DOWN);
+		webElmFromInput.sendKeys(Keys.ENTER);
+		webElmToInput.click();
+		webElmToInput.sendKeys(toLocation);
+		webElmToInput.sendKeys(Keys.DOWN);
+		webElmToInput.sendKeys(Keys.ENTER);
+		webElmDepartDate.click();
+		selectDatePicker(departDate);
+		webElmReturnDate.click();
+		selectDatePicker(returnDate);
+		selectFromSelectDropDown(elmAdultSelector, adultCount);
+		selectFromSelectDropDown(elmchildrenSelector, childCount);
+		selectFromSelectDropDown(elmInfantSelector, infantCount);
+	}
+
+	/**
+	 * @Description : Method to Hit Search button
+	 */
+	public void clickOnSearch() {
+		elmSearchFlight.click();
 	}
 
 }

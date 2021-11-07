@@ -13,8 +13,8 @@
         <methods>
           <include name="driverClose"/>
           <include name="startApplication"/>
-          <include name="verifyClearTripHomePageDefaultsValues" invocation-numbers="0"/>
           <include name="driverSetup"/>
+          <include name="verifyBookingTickets" invocation-numbers="0"/>
         </methods>
       </class> <!-- org.clearTrip.com.TestBooking.verifyClearTrip -->
     </classes>
