@@ -37,8 +37,9 @@ public class TestEnvironment {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--incognito");
 			options.addArguments("--disable-popup-blocking");
-			options.addArguments("--test-type");
+			options.addArguments("test-type");
 			options.addArguments("--disable-notifications");
+			options.setAcceptInsecureCerts(true);
 			//options.addArguments("--headless");
 
 			//driver.manage().window().maximize();

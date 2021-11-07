@@ -134,19 +134,30 @@ public class ClearTripHomePage extends BasePage {
 			String returnDate, String adultCount, String childCount, String infantCount) {
 		webElmFromInput.click();
 		webElmFromInput.sendKeys(fromLocation);
+		wait(2);
 		webElmFromInput.sendKeys(Keys.DOWN);
+		wait(2);
 		webElmFromInput.sendKeys(Keys.ENTER);
+		wait(2);
 		webElmToInput.click();
 		webElmToInput.sendKeys(toLocation);
+		wait(2);
 		webElmToInput.sendKeys(Keys.DOWN);
+		wait(2);
 		webElmToInput.sendKeys(Keys.ENTER);
+		wait(2);
 		webElmDepartDate.click();
 		selectDatePicker(departDate);
+		wait(2);
 		webElmReturnDate.click();
 		selectDatePicker(returnDate);
+		wait(2);
 		selectFromSelectDropDown(elmAdultSelector, adultCount);
+		wait(2);
 		selectFromSelectDropDown(elmchildrenSelector, childCount);
+		wait(2);
 		selectFromSelectDropDown(elmInfantSelector, infantCount);
+		wait(2);
 	}
 
 	/**
@@ -154,6 +165,34 @@ public class ClearTripHomePage extends BasePage {
 	 */
 	public void clickOnSearch() {
 		elmSearchFlight.click();
+		wait(2);
+	}
+	
+	public void selectingFiledsForOneWay(String fromLocation, String toLocation, String departDate
+			, String adultCount, String childCount, String infantCount) {
+		webElmFromInput.click();
+		webElmFromInput.sendKeys(fromLocation);
+		wait(2);
+		webElmFromInput.sendKeys(Keys.DOWN);
+		wait(2);
+		webElmFromInput.sendKeys(Keys.ENTER);
+		wait(2);
+		webElmToInput.click();
+		webElmToInput.sendKeys(toLocation);
+		wait(2);
+		webElmToInput.sendKeys(Keys.DOWN);
+		wait(2);
+		webElmToInput.sendKeys(Keys.ENTER);
+		wait(2);
+		webElmDepartDate.click();
+		selectDatePicker(departDate);
+		wait(2);
+		selectFromSelectDropDown(elmAdultSelector, adultCount);
+		wait(2);
+		selectFromSelectDropDown(elmchildrenSelector, childCount);
+		wait(2);
+		selectFromSelectDropDown(elmInfantSelector, infantCount);
+		wait(2);
 	}
 
 }

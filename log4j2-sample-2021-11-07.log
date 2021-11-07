@@ -1,0 +1,1319 @@
+[INFO ] 2021-11-07 10:26:36.359 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 10:26:36.395 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 10:26:42.172 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 10:26:42.604 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 10:26:42.636 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 10:26:42.743 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 10:26:42.811 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:26:42.877 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 10:26:42.929 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:26:42.980 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:26:43.035 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 10:26:43.087 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 10:26:43.166 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 10:26:43.258 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 10:26:43.323 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 10:26:43.366 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 10:26:43.390 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 10:26:43.412 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 10:26:43.878 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 10:26:43.887 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 10:26:43.894 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 10:26:43.894 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 10:26:43.894 [main] Log - Checking Xpath : //p[contains(text(),'Round Trip')]/ancestor::label/..//input
+[INFO ] 2021-11-07 10:27:14.533 [main] Log - verifyBookingTickets test is skipped.
+[INFO ] 2021-11-07 10:27:14.541 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 10:27:14.544 [main] Log - verifyBookingTickets test is failed.
+[INFO ] 2021-11-07 10:27:14.711 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-07 10:28:31.477 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 10:28:31.504 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 10:28:37.237 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 10:28:37.645 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 10:28:37.682 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 10:28:37.795 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 10:28:37.861 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:28:37.934 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 10:28:37.984 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:28:38.034 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:28:38.083 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 10:28:38.131 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 10:28:38.182 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 10:28:38.248 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 10:28:38.317 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 10:28:38.349 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 10:28:38.372 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 10:28:38.396 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 10:28:38.860 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 10:28:38.879 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 10:28:38.890 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 10:28:38.890 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 10:28:38.890 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:28:39.037 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 10:28:39.075 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 10:28:41.113 [main] Log - verifyBookingTickets test is succeed.
+[INFO ] 2021-11-07 10:28:41.152 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-07 10:29:33.564 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 10:29:33.611 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 10:29:36.071 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 10:29:36.576 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 10:29:36.617 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 10:29:36.754 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 10:29:36.829 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:29:36.901 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 10:29:36.960 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:29:37.011 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:29:37.063 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 10:29:37.113 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 10:29:37.165 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 10:29:37.220 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 10:29:37.270 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 10:29:37.294 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 10:29:37.315 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 10:29:37.335 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 10:29:37.665 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 10:29:37.679 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 10:29:37.686 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 10:29:37.686 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 10:29:37.686 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:29:37.767 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 10:29:37.799 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 10:30:27.841 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 10:30:27.881 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 10:30:30.231 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 10:30:30.647 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 10:30:30.683 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 10:30:30.771 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 10:30:30.835 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:30:30.900 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 10:30:30.959 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:30:31.020 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:30:31.069 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 10:30:31.120 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 10:30:31.192 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 10:30:31.263 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 10:30:31.326 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 10:30:31.358 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 10:30:31.384 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 10:30:31.406 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 10:30:31.737 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 10:30:31.747 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 10:30:31.753 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 10:30:31.753 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 10:30:31.753 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:30:31.838 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 10:30:31.870 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 10:30:33.630 [main] Log - verifyBookingTickets test is succeed.
+[INFO ] 2021-11-07 10:30:33.664 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-07 10:31:04.757 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 10:31:04.800 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 10:31:07.115 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 10:31:07.610 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 10:31:07.656 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 10:31:07.786 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 10:31:07.874 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:31:07.948 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 10:31:08.019 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:31:08.090 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:31:08.160 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 10:31:08.229 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 10:31:08.287 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 10:31:08.343 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 10:31:08.394 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 10:31:08.418 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 10:31:08.438 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 10:31:08.458 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 10:31:08.815 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 10:31:08.846 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 10:31:08.864 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 10:31:08.864 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 10:31:08.864 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:31:09.001 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 10:31:09.041 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 10:50:11.744 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 10:50:11.778 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 10:50:17.582 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 10:50:18.077 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 10:50:18.110 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 10:50:18.212 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 10:50:18.278 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:50:18.343 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 10:50:18.395 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:50:18.447 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 10:50:18.494 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 10:50:18.546 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 10:50:18.634 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 10:50:18.697 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 10:50:18.752 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 10:50:18.781 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 10:50:18.802 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 10:50:18.838 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 10:50:19.459 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 10:50:19.475 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 10:50:19.483 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 10:50:19.483 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 10:50:19.483 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 10:50:19.603 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 10:50:19.645 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 10:50:20.926 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 10:50:20.954 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 10:50:21.166 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 10:50:21.195 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 10:50:23.208 [main] Log - verifyBookingTickets test is succeed.
+[INFO ] 2021-11-07 10:50:23.224 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-07 16:26:11.123 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 16:26:11.187 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 16:26:13.574 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 16:26:14.183 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 16:26:14.235 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 16:26:14.383 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 16:26:14.479 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:26:14.550 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 16:26:14.618 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:26:14.684 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:26:14.741 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 16:26:14.798 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 16:26:14.891 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 16:26:14.943 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 16:26:14.994 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 16:26:15.027 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 16:26:15.051 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 16:26:15.070 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 16:26:15.487 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 16:26:15.504 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 16:26:15.519 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 16:26:15.519 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 16:26:15.519 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:26:15.614 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 16:26:15.653 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 16:26:15.687 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 16:26:17.004 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:26:17.048 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 16:26:17.273 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:26:17.316 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='27')]
+[INFO ] 2021-11-07 16:26:17.830 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 16:26:19.106 [main] Log - Checking Xpath : //*[@data-test-attrib='onward-view']
+[INFO ] 2021-11-07 16:27:12.879 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 16:27:12.924 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 16:27:14.875 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 16:27:15.386 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 16:27:15.422 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 16:27:15.534 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 16:27:15.632 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:27:15.704 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 16:27:15.785 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:27:15.847 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:27:15.915 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 16:27:15.974 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 16:27:16.043 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 16:27:16.101 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 16:27:16.168 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 16:27:16.198 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 16:27:16.220 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 16:27:16.248 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 16:27:16.666 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 16:27:16.682 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 16:27:16.695 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 16:27:16.695 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 16:27:16.695 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:27:16.798 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 16:27:16.837 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 16:27:16.861 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 16:27:18.174 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:27:18.206 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 16:27:18.453 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:27:18.482 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='27')]
+[INFO ] 2021-11-07 16:27:19.004 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 16:29:42.830 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 16:29:42.880 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 16:29:45.188 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 16:29:46.217 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 16:29:46.264 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 16:29:46.403 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 16:29:46.482 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:29:46.569 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 16:29:46.623 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:29:46.704 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:29:46.767 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 16:29:46.824 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 16:29:46.882 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 16:29:46.940 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 16:29:47.002 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 16:29:47.037 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 16:29:47.070 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 16:29:47.141 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 16:29:47.641 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 16:29:47.661 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 16:29:47.685 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 16:29:47.685 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 16:29:47.685 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:29:47.851 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 16:29:47.907 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 16:29:47.948 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 16:29:49.708 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:29:49.755 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 16:29:50.067 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:29:50.122 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 16:29:50.929 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 16:38:32.999 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 16:38:33.041 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 16:38:35.087 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 16:38:35.683 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 16:38:35.725 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 16:38:35.835 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 16:38:35.905 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:38:35.961 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 16:38:36.023 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:38:36.124 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:38:36.199 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 16:38:36.252 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 16:38:36.307 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 16:38:36.364 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 16:38:36.417 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 16:38:36.443 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 16:38:36.463 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 16:38:36.492 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 16:38:36.852 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 16:38:36.864 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 16:38:36.875 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 16:38:36.876 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 16:38:36.876 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:38:36.955 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 16:38:36.990 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 16:38:37.012 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 16:38:41.941 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:38:41.981 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 16:38:44.177 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:38:44.208 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 16:38:52.728 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 16:40:03.902 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 16:40:03.942 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 16:40:06.464 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 16:40:06.879 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 16:40:06.917 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 16:40:07.010 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 16:40:07.110 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:40:07.174 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 16:40:07.235 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:40:07.294 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:40:07.370 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 16:40:07.439 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 16:40:07.498 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 16:40:07.565 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 16:40:07.623 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 16:40:07.653 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 16:40:07.682 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 16:40:07.708 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 16:40:08.046 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 16:40:08.057 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 16:40:08.068 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 16:40:08.068 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 16:40:08.068 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:40:08.150 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 16:40:08.184 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 16:40:08.208 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 16:40:13.128 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:40:13.169 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 16:40:15.359 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:40:15.389 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 16:40:23.847 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 16:43:25.209 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 16:43:25.259 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 16:43:27.867 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 16:43:28.573 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 16:43:28.631 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 16:43:28.775 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 16:43:28.864 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:43:28.943 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 16:43:29.021 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:43:29.093 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 16:43:29.167 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 16:43:29.239 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 16:43:29.310 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 16:43:29.391 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 16:43:29.471 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 16:43:29.510 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 16:43:29.545 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 16:43:29.575 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 16:43:30.115 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 16:43:30.132 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 16:43:30.149 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 16:43:30.149 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 16:43:30.149 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 16:43:30.336 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 16:43:30.383 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 16:43:30.419 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 16:43:35.616 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:43:35.668 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 16:43:37.920 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 16:43:37.961 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 16:43:46.480 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:01:37.747 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 17:01:37.790 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 17:01:39.886 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 17:01:40.355 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 17:01:40.394 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 17:01:40.509 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 17:01:40.579 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:01:40.634 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 17:01:40.696 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:01:40.745 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:01:40.794 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 17:01:40.849 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 17:01:40.911 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 17:01:40.965 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 17:01:41.019 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 17:01:41.047 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 17:01:41.066 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 17:01:41.095 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 17:01:41.443 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 17:01:41.456 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 17:01:41.467 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:01:43.592 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 17:01:43.593 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 17:01:43.597 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:01:43.775 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 17:01:43.834 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 17:01:43.871 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 17:01:49.155 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:01:49.190 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 17:01:51.405 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:01:51.436 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 17:01:59.897 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:04:02.437 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 17:04:02.475 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 17:04:04.738 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 17:04:05.209 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 17:04:05.243 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 17:04:05.340 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 17:04:05.405 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:04:05.461 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 17:04:05.528 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:04:05.580 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:04:05.633 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 17:04:05.686 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 17:04:05.738 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 17:04:05.789 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 17:04:05.841 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 17:04:05.866 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 17:04:05.885 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 17:04:05.905 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 17:04:06.255 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 17:04:06.266 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 17:04:06.280 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:04:08.440 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 17:04:08.440 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 17:04:08.441 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:04:08.543 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 17:04:08.579 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 17:04:08.607 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 17:04:13.564 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:04:13.598 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 17:04:15.786 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:04:15.812 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 17:04:24.259 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:06:40.174 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 17:06:40.214 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 17:06:42.544 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 17:06:43.163 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 17:06:43.205 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 17:06:43.317 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 17:06:43.395 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:06:43.454 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 17:06:43.511 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:06:43.567 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:06:43.621 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 17:06:43.675 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 17:06:43.730 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 17:06:43.786 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 17:06:43.843 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 17:06:43.870 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 17:06:43.893 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 17:06:43.926 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 17:06:44.342 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 17:06:44.354 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 17:06:44.364 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 17:06:44.364 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 17:06:44.364 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:06:44.442 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 17:06:44.475 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 17:06:44.501 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 17:06:49.488 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:06:49.522 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 17:06:51.723 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:06:51.751 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 17:07:00.262 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:07:22.798 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 17:07:22.799 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 17:07:22.800 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:07:22.947 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 17:07:22.989 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 17:07:23.049 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 17:07:28.083 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:07:28.112 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 17:07:30.289 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:07:30.315 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 17:08:36.813 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 17:08:36.841 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 17:08:38.818 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 17:08:39.318 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 17:08:39.358 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 17:08:39.466 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 17:08:39.536 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:08:39.594 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 17:08:39.666 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:08:39.727 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:08:39.781 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 17:08:39.834 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 17:08:39.889 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 17:08:39.942 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 17:08:39.995 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 17:08:40.022 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 17:08:40.044 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 17:08:40.065 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 17:08:40.439 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 17:08:40.451 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 17:08:40.463 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 17:08:40.463 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 17:08:40.463 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:08:40.545 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 17:08:40.579 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 17:08:40.601 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 17:08:45.510 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:08:45.548 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 17:08:47.759 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:08:47.789 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 17:08:56.241 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:09:09.234 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 17:09:09.246 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 17:09:14.638 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 17:09:17.603 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 17:09:17.610 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:09:24.230 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 17:09:24.274 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 17:09:24.297 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 17:09:29.096 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:09:29.124 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 17:09:31.297 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:09:31.326 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 17:10:28.780 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 17:10:28.818 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 17:10:31.079 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 17:10:31.516 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 17:10:31.550 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 17:10:31.652 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 17:10:31.717 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:10:31.775 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 17:10:31.831 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:10:31.884 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:10:31.935 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 17:10:31.990 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 17:10:32.054 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 17:10:32.106 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 17:10:32.162 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 17:10:32.191 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 17:10:32.212 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 17:10:32.235 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 17:10:32.595 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 17:10:32.606 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 17:10:32.618 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 17:10:32.618 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 17:10:32.618 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:10:32.713 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 17:10:32.753 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 17:10:32.779 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 17:10:38.014 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:10:38.045 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 17:10:40.233 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:10:40.265 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 17:10:48.728 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:12:36.301 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 17:12:36.357 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 17:12:39.068 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 17:12:39.570 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 17:12:39.614 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 17:12:39.776 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 17:12:39.864 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:12:39.940 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 17:12:40.021 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:12:40.093 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:12:40.161 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 17:12:40.224 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 17:12:40.292 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 17:12:40.343 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 17:12:40.398 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 17:12:40.422 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 17:12:40.443 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 17:12:40.472 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 17:12:40.859 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 17:12:40.875 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 17:12:40.887 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 17:12:40.888 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 17:12:40.888 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:12:40.993 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 17:12:41.025 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 17:12:41.051 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 17:12:46.055 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:12:46.095 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 17:12:48.297 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:12:48.329 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 17:12:56.798 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:13:56.990 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 17:13:57.044 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 17:13:58.934 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 17:13:59.472 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 17:13:59.511 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 17:13:59.628 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 17:13:59.701 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:13:59.763 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 17:13:59.832 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:13:59.891 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:13:59.945 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 17:14:00.005 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 17:14:00.084 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 17:14:00.175 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 17:14:00.237 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 17:14:00.268 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 17:14:00.292 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 17:14:00.323 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 17:14:00.707 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 17:14:00.719 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 17:14:00.730 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 17:14:00.730 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 17:14:00.730 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:14:00.815 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 17:14:00.850 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 17:14:00.876 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 17:14:13.572 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:14:13.621 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 17:14:15.883 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:14:15.920 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 17:14:24.398 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:19:26.254 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 17:19:26.282 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 17:19:28.582 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 17:19:29.073 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 17:19:29.110 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 17:19:29.216 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 17:19:29.283 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:19:29.348 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 17:19:29.403 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:19:29.455 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 17:19:29.519 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 17:19:29.574 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 17:19:29.627 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 17:19:29.681 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 17:19:29.734 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 17:19:29.761 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 17:19:29.780 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 17:19:29.806 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 17:19:30.146 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 17:19:30.156 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 17:19:30.167 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 17:19:30.168 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 17:19:30.168 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 17:19:30.246 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 17:19:30.281 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 17:19:30.302 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 17:19:42.908 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:19:42.957 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 17:19:45.157 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 17:19:45.185 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 17:19:53.643 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 17:21:12.251 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 17:21:12.317 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 17:21:13.611 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 17:21:14.046 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 17:21:14.103 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 22:53:48.129 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 22:53:48.172 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 22:53:50.353 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 22:53:50.929 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 22:53:50.970 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 22:53:51.097 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 22:53:51.176 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 22:53:51.245 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 22:53:51.313 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 22:53:51.372 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 22:53:51.436 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 22:53:51.489 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 22:53:51.543 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 22:53:51.623 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 22:53:51.714 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 22:53:51.761 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 22:53:51.802 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 22:53:51.832 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 22:53:52.428 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 22:53:52.450 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 22:53:52.463 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 22:53:52.464 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 22:53:52.464 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 22:53:52.572 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 22:53:52.606 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 22:53:52.630 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 22:54:05.382 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 22:54:05.449 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 22:54:07.679 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 22:54:07.712 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 22:54:16.234 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 22:57:51.931 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 22:57:51.981 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 22:57:54.259 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 22:57:54.894 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 22:57:54.939 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 22:57:55.091 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 22:57:55.182 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 22:57:55.256 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 22:57:55.326 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 22:57:55.388 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 22:57:55.446 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 22:57:55.510 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 22:57:55.568 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 22:57:55.635 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 22:57:55.689 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 22:57:55.714 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 22:57:55.755 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 22:57:55.781 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 22:57:56.190 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 22:57:56.202 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 22:57:56.216 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 22:57:56.216 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 22:57:56.217 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 22:57:56.308 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 22:57:56.359 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 22:57:56.393 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 22:58:09.196 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 22:58:09.234 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 22:58:11.446 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 22:58:11.493 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 22:58:20.067 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:01:56.510 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:01:56.574 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:01:59.021 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:01:59.729 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:01:59.768 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:01:59.899 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:01:59.987 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:02:00.066 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:02:00.118 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:02:00.171 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:02:00.222 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:02:00.284 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:02:00.344 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:02:00.396 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:02:00.448 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:02:00.473 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:02:00.497 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:02:00.519 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:02:00.911 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:02:00.924 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:02:00.939 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:02:00.939 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 23:02:00.940 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:02:01.031 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 23:02:01.082 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 23:02:01.114 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:02:13.814 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:02:13.878 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:02:16.142 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:02:16.186 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 23:02:24.781 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:03:41.609 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:03:41.656 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:03:43.818 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:03:44.281 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:03:44.316 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:03:44.424 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:03:44.492 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:03:44.555 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:03:44.612 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:03:44.672 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:03:44.724 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:03:44.779 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:03:44.830 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:03:44.884 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:03:44.936 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:03:44.966 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:03:44.988 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:03:45.012 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:03:45.360 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:03:45.373 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:03:45.383 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:03:45.383 [main] Log - Selecting Round Trip Travel mode
+[INFO ] 2021-11-07 23:03:45.383 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:03:45.464 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 23:03:45.499 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 23:03:45.522 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:03:58.173 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:03:58.261 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:04:00.549 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:04:00.575 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'11')][contains(@data-year,'2021')]//a[(text()='17')]
+[INFO ] 2021-11-07 23:04:09.041 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:07:27.865 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:07:27.892 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:07:29.866 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:07:30.326 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:07:30.360 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:07:30.474 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:07:30.543 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:07:30.596 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:07:30.654 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:07:30.702 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:07:30.754 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:07:30.809 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:07:30.861 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:07:30.913 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:07:30.966 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:07:31.001 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:07:31.033 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:07:31.053 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:07:31.412 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:07:31.426 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:07:31.439 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:07:31.440 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:07:31.440 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:07:31.535 [main] Log - Verifying Return date field is present
+[INFO ] 2021-11-07 23:07:31.575 [main] Log - Checking Xpath : //input[contains(@name,'return')]
+[INFO ] 2021-11-07 23:07:31.751 [main] Log - verifyBookingTickets test is skipped.
+[INFO ] 2021-11-07 23:07:31.760 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:07:31.762 [main] Log - verifyBookingTickets test is failed.
+[INFO ] 2021-11-07 23:07:31.936 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-07 23:08:11.459 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:08:11.491 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:08:13.441 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:08:13.901 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:08:13.934 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:08:14.034 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:08:14.102 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:08:14.163 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:08:14.221 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:08:14.284 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:08:14.332 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:08:14.385 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:08:14.438 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:08:14.490 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:08:14.539 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:08:14.567 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:08:14.589 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:08:14.611 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:08:14.961 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:08:14.985 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:08:14.999 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:08:14.999 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:08:14.999 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:08:15.113 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:08:27.789 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:08:27.856 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:08:36.365 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:18:24.064 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:18:24.094 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:18:26.181 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:18:26.768 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:18:26.805 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:18:26.920 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:18:26.986 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:18:27.050 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:18:27.107 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:18:27.167 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:18:27.225 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:18:27.288 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:18:27.339 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:18:27.396 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:18:27.444 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:18:27.470 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:18:27.494 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:18:27.514 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:18:27.869 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:18:27.884 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:18:27.895 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:18:27.895 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:18:27.896 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:18:27.984 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:18:40.604 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:18:40.657 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:18:49.148 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:19:31.952 [main] Log - Checking Xpath : //*[contains(@class,'sortbar-container')]
+[INFO ] 2021-11-07 23:22:04.321 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:22:04.375 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:22:06.744 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:22:07.204 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:22:07.235 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:22:07.355 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:22:07.421 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:22:07.476 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:22:07.536 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:22:07.592 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:22:07.642 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:22:07.700 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:22:07.752 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:22:07.808 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:22:07.864 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:22:07.891 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:22:07.911 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:22:07.932 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:22:08.365 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:22:08.379 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:22:08.389 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:22:08.389 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:22:08.390 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:22:08.474 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:22:21.141 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:22:21.203 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:22:29.676 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:22:34.272 [main] Log - Checking Xpath : //*[contains(@class,'sortbar-container')]
+[INFO ] 2021-11-07 23:26:46.314 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:26:46.353 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:26:48.728 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:26:49.347 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:26:49.383 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:26:49.533 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:26:49.614 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:26:49.688 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:26:49.781 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:26:49.849 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:26:49.917 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:26:49.978 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:26:50.050 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:26:50.117 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:26:50.179 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:26:50.220 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:26:50.248 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:26:50.283 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:26:50.699 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:26:50.713 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:26:50.725 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:26:50.726 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:26:50.726 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:26:50.849 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:27:03.580 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:27:03.632 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:27:12.125 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:27:16.233 [main] Log - Checking Xpath : //*[contains(@class,'sortbar-container')]
+[INFO ] 2021-11-07 23:27:16.425 [main] Log - Checking Xpath : //*[contains(@data-ct-handle,'solutionPrice')]//p[contains(text(),'?')]
+[INFO ] 2021-11-07 23:28:39.374 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:28:39.417 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:28:41.354 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:28:41.776 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:28:41.812 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:28:41.909 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:28:41.978 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:28:42.034 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:28:42.096 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:28:42.153 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:28:42.204 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:28:42.256 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:28:42.305 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:28:42.359 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:28:42.417 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:28:42.443 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:28:42.464 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:28:42.490 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:28:42.882 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:28:42.892 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:28:42.915 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:28:42.916 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:28:42.916 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:28:43.005 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:28:55.637 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:28:55.699 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:29:04.210 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:29:08.459 [main] Log - Checking Xpath : //*[contains(@class,'sortbar-container')]
+[INFO ] 2021-11-07 23:29:47.877 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:29:47.911 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:29:49.734 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:29:50.208 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:29:50.253 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:29:50.378 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:29:50.447 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:29:50.503 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:29:50.561 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:29:50.615 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:29:50.667 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:29:50.726 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:29:50.779 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:29:50.834 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:29:50.885 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:29:50.915 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:29:50.934 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:29:50.954 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:29:51.289 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:29:51.303 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:29:51.332 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:29:51.332 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:29:51.332 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:29:51.426 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:30:04.030 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:30:04.081 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:30:12.624 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:30:16.575 [main] Log - Checking Xpath : //*[contains(@class,'sortbar-container')]
+[INFO ] 2021-11-07 23:30:56.957 [main] Log - verifyBookingTickets test is skipped.
+[INFO ] 2021-11-07 23:30:56.963 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:30:56.965 [main] Log - verifyBookingTickets test is failed.
+[INFO ] 2021-11-07 23:30:57.102 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-07 23:31:26.206 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:31:26.242 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:31:28.276 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:31:28.787 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:31:28.826 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:31:28.932 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:31:29.003 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:31:29.061 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:31:29.116 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:31:29.179 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:31:29.232 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:31:29.283 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:31:29.341 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:31:29.394 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:31:29.449 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:31:29.479 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:31:29.501 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:31:29.522 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:31:29.868 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:31:29.882 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:31:29.905 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:31:29.905 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:31:29.905 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:31:30.015 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:31:42.645 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:31:42.719 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:31:51.210 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:31:55.394 [main] Log - Checking Xpath : //*[contains(@class,'sortbar-container')]
+[INFO ] 2021-11-07 23:32:35.979 [main] Log - verifyBookingTickets test is skipped.
+[INFO ] 2021-11-07 23:32:35.984 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:32:35.987 [main] Log - verifyBookingTickets test is failed.
+[INFO ] 2021-11-07 23:32:36.102 [main] Log - I am in onFinish method Test
+[INFO ] 2021-11-07 23:33:19.956 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:33:19.991 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:33:21.979 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:33:22.420 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:33:22.455 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:33:22.549 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:33:22.616 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:33:22.678 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:33:22.736 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:33:22.793 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:33:22.841 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:33:22.893 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:33:22.950 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:33:23.006 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:33:23.064 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:33:23.090 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:33:23.110 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:33:23.129 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:33:23.452 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:33:23.471 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:33:23.500 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:33:23.500 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:33:23.500 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:33:23.589 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:33:36.208 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:33:36.256 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:33:44.740 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:33:49.038 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div
+[INFO ] 2021-11-07 23:34:43.530 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:34:43.564 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:34:45.486 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:34:45.957 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:34:45.996 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:34:46.103 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:34:46.177 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:34:46.238 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:34:46.293 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:34:46.343 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:34:46.402 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:34:46.460 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:34:46.513 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:34:46.568 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:34:46.622 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:34:46.647 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:34:46.667 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:34:46.686 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:34:47.024 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:34:47.035 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:34:47.053 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:34:47.053 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:34:47.054 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:34:47.162 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:34:59.832 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:34:59.880 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:35:08.347 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:35:12.659 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div
+[INFO ] 2021-11-07 23:36:03.980 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:36:04.022 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:36:06.125 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:36:06.659 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:36:06.693 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:36:06.812 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:36:06.875 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:36:06.932 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:36:06.990 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:36:07.043 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:36:07.102 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:36:07.159 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:36:07.214 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:36:07.266 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:36:07.320 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:36:07.346 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:36:07.367 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:36:07.393 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:36:07.724 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:36:07.738 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:36:07.758 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:36:07.758 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:36:07.758 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:36:07.862 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:36:20.530 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:36:20.596 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:36:29.124 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:36:33.494 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div
+[INFO ] 2021-11-07 23:39:26.292 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:39:26.329 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:39:28.506 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:39:29.165 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:39:29.210 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:39:29.361 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:39:29.452 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:39:29.526 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:39:29.594 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:39:29.661 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:39:29.720 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:39:29.780 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:39:29.844 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:39:29.922 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:39:29.987 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:39:30.020 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:39:30.045 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:39:30.068 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:39:30.514 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:39:30.525 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:39:30.540 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:39:30.541 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:39:30.541 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:39:30.629 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:39:43.386 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:39:43.432 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:39:51.905 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:39:56.200 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div
+[INFO ] 2021-11-07 23:40:43.349 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:40:43.388 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:40:45.518 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:40:46.014 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:40:46.047 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:40:46.155 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:40:46.221 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:40:46.278 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:40:46.342 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:40:46.400 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:40:46.459 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:40:46.529 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:40:46.593 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:40:46.673 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:40:46.730 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:40:46.762 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:40:46.783 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:40:46.803 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:40:47.169 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:40:47.183 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:40:47.201 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:40:47.202 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:40:47.202 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:40:47.314 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:40:59.963 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:41:00.000 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:41:08.555 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:41:12.958 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div
+[INFO ] 2021-11-07 23:43:02.399 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:43:02.432 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:43:05.360 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:43:05.811 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:43:05.849 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:43:05.973 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:43:06.044 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:43:06.102 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:43:06.163 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:43:06.219 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:43:06.276 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:43:06.327 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:43:06.379 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:43:06.435 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:43:06.488 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:43:06.527 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:43:06.546 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:43:06.571 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:43:06.888 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:43:06.900 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:43:06.924 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:43:06.925 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:43:06.925 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:43:07.044 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:43:19.716 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:43:19.764 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:43:28.241 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:43:32.391 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div
+[INFO ] 2021-11-07 23:44:24.306 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:44:24.354 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:44:26.452 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:44:26.977 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:44:27.025 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:44:27.171 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:44:27.237 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:44:27.292 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:44:27.353 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:44:27.403 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:44:27.462 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:44:27.516 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:44:27.576 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:44:27.642 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:44:27.692 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:44:27.719 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:44:27.738 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:44:27.765 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:44:28.162 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:44:28.175 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:44:28.187 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:44:28.187 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:44:28.187 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:44:28.286 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:44:40.942 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:44:41.013 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:44:49.575 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:44:53.970 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div
+[INFO ] 2021-11-07 23:45:56.814 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:45:56.858 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:45:59.257 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:45:59.824 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:45:59.861 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:45:59.986 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:46:00.072 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:46:00.127 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:46:00.181 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:46:00.239 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:46:00.294 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:46:00.347 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:46:00.410 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:46:00.500 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:46:00.585 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:46:00.622 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:46:00.662 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:46:00.692 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:46:01.048 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:46:01.072 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:46:01.084 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:46:01.084 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:46:01.084 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:46:01.162 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:46:13.801 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:46:13.856 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:46:22.333 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:46:26.761 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button
+[INFO ] 2021-11-07 23:51:41.937 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:51:41.979 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:51:44.450 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:51:45.014 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:51:45.054 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:51:45.196 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:51:45.287 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:51:45.351 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:51:45.426 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:51:45.487 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:51:45.548 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:51:45.604 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:51:45.661 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:51:45.711 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:51:45.761 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:51:45.785 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:51:45.804 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:51:45.855 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:51:46.491 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:51:46.507 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:51:46.529 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:51:46.530 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:51:46.530 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:51:46.726 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:51:59.471 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:51:59.526 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:52:08.028 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:52:12.703 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div[contains(text(),'')]
+[INFO ] 2021-11-07 23:53:23.952 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:53:23.989 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:53:26.319 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:53:26.851 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:53:26.892 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:53:27.020 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:53:27.092 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:53:27.151 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:53:27.212 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:53:27.264 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:53:27.319 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:53:27.372 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:53:27.423 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:53:27.477 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:53:27.526 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:53:27.550 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:53:27.594 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:53:27.623 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:53:28.028 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:53:28.044 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:53:28.070 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:53:28.070 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:53:28.070 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:53:28.292 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:53:40.973 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:53:41.180 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:53:49.723 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:53:54.314 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div[contains(text(),'')]
+[INFO ] 2021-11-07 23:56:42.866 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:56:42.933 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:56:45.292 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:56:45.818 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:56:45.851 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:56:45.989 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:56:46.068 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:56:46.141 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:56:46.194 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:56:46.249 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:56:46.307 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:56:46.361 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:56:46.432 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:56:46.490 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:56:46.541 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:56:46.565 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:56:46.585 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:56:46.613 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:56:46.955 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:56:46.972 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:56:46.993 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:56:46.993 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:56:46.993 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:56:47.142 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:56:59.816 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:56:59.881 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:57:08.369 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:57:13.142 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div[contains(text(),'')]
+[INFO ] 2021-11-07 23:57:51.153 [main] Log - I am in onStart method Test
+[INFO ] 2021-11-07 23:57:51.283 [main] Log - Tests is starting!
+[INFO ] 2021-11-07 23:57:53.693 [main] Log - verifyClearTripHomePageDefaultsValues test is starting.
+[INFO ] 2021-11-07 23:57:54.335 [main] Log - Verifying Clear trip Home Page Fileds
+[INFO ] 2021-11-07 23:57:54.383 [main] Log - Checking Xpath : //a[@class='ctBrand']
+[INFO ] 2021-11-07 23:57:54.508 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:57:54.587 [main] Log - Checking Xpath : //*[contains(text(),'Round Trip')]/ancestor::li//input
+[INFO ] 2021-11-07 23:57:54.650 [main] Log - Checking Xpath : //*[contains(text(),'Multi City')]/ancestor::li//input
+[INFO ] 2021-11-07 23:57:54.733 [main] Log - Checking Xpath : //label[contains(text(),'From')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:57:54.784 [main] Log - Checking Xpath : //label[contains(text(),'To')]/..//input[@placeholder='Any worldwide city or airport']
+[INFO ] 2021-11-07 23:57:54.837 [main] Log - Checking Xpath : //input[contains(@name,'depart')]
+[INFO ] 2021-11-07 23:57:54.886 [main] Log - Checking Xpath : //*[@id='adults_selector']
+[INFO ] 2021-11-07 23:57:54.942 [main] Log - Checking Xpath : //*[@id='children_selector']
+[INFO ] 2021-11-07 23:57:54.998 [main] Log - Checking Xpath : //*[@id='infant_selector']
+[INFO ] 2021-11-07 23:57:55.057 [main] Log - Checking Xpath : //*[@id='submit_search_form']
+[INFO ] 2021-11-07 23:57:55.084 [main] Log - Verifying Count of Travel Modes
+[INFO ] 2021-11-07 23:57:55.117 [main] Log - Verifying One Way Radio Button is selected
+[INFO ] 2021-11-07 23:57:55.138 [main] Log - Verifying Passager default values
+[INFO ] 2021-11-07 23:57:55.521 [main] Log - verifyClearTripHomePageDefaultsValues test is succeed.
+[INFO ] 2021-11-07 23:57:55.540 [main] Log - verifyBookingTickets test is starting.
+[INFO ] 2021-11-07 23:57:55.565 [main] Log - verify Booking Tickets
+[INFO ] 2021-11-07 23:57:55.566 [main] Log - Selecting One way Travel mode
+[INFO ] 2021-11-07 23:57:55.566 [main] Log - Checking Xpath : //*[contains(text(),'One way')]/ancestor::li//input
+[INFO ] 2021-11-07 23:57:55.670 [main] Log - Selecting Round trip fileds
+[INFO ] 2021-11-07 23:58:08.320 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]
+[INFO ] 2021-11-07 23:58:08.380 [main] Log - Checking Xpath : //table[contains(@class,'ui-datepicker-calendar')]//*[contains(@data-month,'10')][contains(@data-year,'2021')]//a[(text()='12')]
+[INFO ] 2021-11-07 23:58:16.906 [main] Log - Hitting search Button
+[INFO ] 2021-11-07 23:58:21.519 [main] Log - Checking Xpath : //*[contains(@class,'col flex flex-middle')]//button//div[contains(text(),'')]

@@ -60,7 +60,7 @@ public class BasePage {
 	 */
 	public boolean verifyElementIsPresent(String xpathOfElement) {
 		Log.info("Checking Xpath : " + xpathOfElement);
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
 		WebElement elm;
 		try {
 			elm = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpathOfElement)));
@@ -117,7 +117,7 @@ public class BasePage {
 		fromDate = simpleDateFormat.format(c1.getTime());
 		Calendar c = Calendar.getInstance();
 		c.setTime(new Date());
-		c.add(Calendar.DATE, 20);
+		c.add(Calendar.DATE, 40);
 		String output = simpleDateFormat.format(c.getTime());
 		System.out.println(output);
 		toDate = output;
@@ -139,5 +139,13 @@ public class BasePage {
 				+ "')][contains(@data-year,'" + year + "')]//a[(text()='" + day + "')]";
 		verifyElementIsPresent(dateToBeSelected);
 		driver.findElement(By.xpath(dateToBeSelected)).click();
+	}
+	
+	public void wait(int milliseconds) {
+		try {
+			Thread.sleep(milliseconds * 1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 }
