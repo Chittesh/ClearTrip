@@ -9,14 +9,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.clearTrip.com.TestBooking.verifyClearTrip">
+      <class name="org.clearTrip.com.TestBooking.MockingGeolocation">
         <methods>
+          <include name="verifyMockingGeolocation" invocation-numbers="0"/>
           <include name="driverClose"/>
-          <include name="startApplication"/>
           <include name="driverSetup"/>
-          <include name="verifyBookingTickets" invocation-numbers="0"/>
         </methods>
-      </class> <!-- org.clearTrip.com.TestBooking.verifyClearTrip -->
+      </class> <!-- org.clearTrip.com.TestBooking.MockingGeolocation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
