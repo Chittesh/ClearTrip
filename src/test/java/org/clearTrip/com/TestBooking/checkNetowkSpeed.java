@@ -9,6 +9,7 @@ import org.openqa.selenium.devtools.v85.network.*;
 import org.openqa.selenium.devtools.v85.network.model.ConnectionType;
 import org.testng.annotations.Test;
 
+
 public class checkNetowkSpeed extends TestEnvironment {
 
 	@Test(priority = 0, description = "checkNetowkSpeed")
