@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import utils.logs.Log;
 
-public class ClearTripHomePage extends BasePage {
+public class TripHomePage extends BasePage {
 
 	@FindBy(xpath = "//a[@class='ctBrand']")
 	private WebElement elmClearTripLogo;
@@ -52,7 +52,7 @@ public class ClearTripHomePage extends BasePage {
 	 * @Description : Constructor of HomePage
 	 * @param driver
 	 */
-	public ClearTripHomePage(WebDriver driver) {
+	public TripHomePage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
