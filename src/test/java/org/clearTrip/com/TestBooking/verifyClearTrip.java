@@ -2,7 +2,9 @@ package org.clearTrip.com.TestBooking;
 
 
 
-import utils.logs.Log;
+
+import utils.logs.Log_1;
+
 import static utils.extentreports.ExtentTestManager.startTest;
 import java.lang.reflect.Method;
 import java.time.LocalDateTime;
@@ -22,7 +24,7 @@ public class verifyClearTrip extends TestEnvironment {
 	@BeforeTest()
 	public void startApplication() {
 		BasePage objBasePage = new BasePage(driver);
-		Log.info("Tests is starting!");
+		Log_1.info("Tests is starting!");
 		objBasePage.launchPage();
 	}
 
@@ -32,7 +34,7 @@ public class verifyClearTrip extends TestEnvironment {
 		// ExtentReports Description
 		startTest(method.getName(), "Verify Clear Trip Home Page Defaults Values and fileds");
 
-		Log.info("Verifying Clear trip Home Page Fileds");
+		Log_1.info("Verifying Clear trip Home Page Fileds");
 
 		HashMap<String, Boolean> hmDefaultFileds = new HashMap<String, Boolean>();
 		hmDefaultFileds = objTripHomePage.verifyHomePageElements();
@@ -43,16 +45,16 @@ public class verifyClearTrip extends TestEnvironment {
 			Assert.assertTrue(value, "Verify " + key);
 		}
 
-		Log.info("Verifying Count of Travel Modes");
+		Log_1.info("Verifying Count of Travel Modes");
 		int actualCountOfModes = objTripHomePage.getDefaultTravelModesCount();
 		Assert.assertEquals(actualCountOfModes, Constants.expectedTravelModeCount,
 				"Verify count of travel modes Actual : " + actualCountOfModes + " Expected is : "
 						+ Constants.expectedTravelModeCount);
 
-		Log.info("Verifying One Way Radio Button is selected");
+		Log_1.info("Verifying One Way Radio Button is selected");
 		Assert.assertTrue(objTripHomePage.verifyOneWayRadioButtonIsChecked(), "Verify One Way Radio Button");
 
-		Log.info("Verifying Passager default values");
+		Log_1.info("Verifying Passager default values");
 		HashMap<String, String> hmDefaultPassangerValues = new HashMap<String, String>();
 		hmDefaultPassangerValues = objTripHomePage.getDefaultPeopleCountAndAgeLimit();
 		Assert.assertEquals(hmDefaultPassangerValues.get("Adult Drop Down"),
@@ -87,23 +89,23 @@ public class verifyClearTrip extends TestEnvironment {
 		// ExtentReports Description
 		startTest(method.getName(), "verify Booking Tickets");
 
-		Log.info("verify Booking Tickets");
+		Log_1.info("verify Booking Tickets");
 		objTripHomePage.selectMode(Constants.oneWayTrip);
 
-		// Log.info("Verifying Return date field is present");
+		// Log_1.info("Verifying Return date field is present");
 		// Assert.assertTrue(objTripHomePage.verifyReturnFiled(), "Verify Return
 		// date field");
 
-		Log.info("Selecting Round trip fileds");
+		Log_1.info("Selecting Round trip fileds");
 		objBasePage.setDates(Constants.dateFiledFormat);
 		objTripHomePage.selectingFiledsForOneWay(Constants.fromLocation, Constants.toLocation,
 				objBasePage.fromDate, Constants.adultCount, Constants.childCount,
 				Constants.infantCount);
 
-		Log.info("Hitting search Button");
+		Log_1.info("Hitting search Button");
 		objTripHomePage.clickOnSearch();
 
-		Log.info("Verifying booking page Elements");
+		Log_1.info("Verifying booking page Elements");
 		HashMap<String, Boolean> hmBookingPageElements = new HashMap<String, Boolean>();
 		hmBookingPageElements = objBookingPage.verifyBookingPageElements();
 		for (Entry<String, Boolean> entry : hmBookingPageElements.entrySet()) {
@@ -112,7 +114,7 @@ public class verifyClearTrip extends TestEnvironment {
 			Assert.assertTrue(value, "Verify " + key);
 		}
 
-		Log.info("Verifying booking page Top search fields");
+		Log_1.info("Verifying booking page Top search fields");
 		List<String> expectedSearchFileds = new ArrayList<String>();
 		objBasePage.setDates(Constants.expdateFiledFormat);
 		String expectedPassngerCount = String.valueOf(Integer.parseInt(Constants.adultCount)
@@ -128,7 +130,7 @@ public class verifyClearTrip extends TestEnvironment {
 		actualSearchFileds = objBookingPage.getTopSearchDefaulFields();
 		Assert.assertEquals(actualSearchFileds, expectedSearchFileds, "Veirfy top search fields");
 
-		Log.info("Verifying Results count");
+		Log_1.info("Verifying Results count");
 		Assert.assertTrue(objBookingPage.getResultsCount() > 0, "Verify Results are greater than zero");
 	}
 

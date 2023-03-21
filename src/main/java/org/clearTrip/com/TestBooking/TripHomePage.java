@@ -11,7 +11,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import utils.logs.Log;
+
+import utils.logs.Log_1;
 
 public class TripHomePage extends BasePage {
 
@@ -98,7 +99,7 @@ public class TripHomePage extends BasePage {
 	 * @Description : Method to select travel radio button
 	 */
 	public void selectMode(String tripMode) {
-		Log.info("Selecting " + tripMode + " Travel mode");
+		Log_1.info("Selecting " + tripMode + " Travel mode");
 		String xpath = "//*[contains(text(),'" + tripMode + "')]/ancestor::li//input";
 		verifyElementIsPresent(xpath);
 		WebElement radio = driver.findElement(By.xpath(xpath));

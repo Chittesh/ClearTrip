@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import utils.logs.Log;
+
 
 /**
  * @author chicharles
@@ -59,7 +59,7 @@ public class BasePage {
 	 * @Desciption : Method to verify element is loaded
 	 */
 	public boolean verifyElementIsPresent(String xpathOfElement) {
-		Log.info("Checking Xpath : " + xpathOfElement);
+	//	Log.info("Checking Xpath : " + xpathOfElement);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
 		WebElement elm;
 		try {
