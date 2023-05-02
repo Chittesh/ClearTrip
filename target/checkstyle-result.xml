@@ -121,8 +121,4 @@
 <file name="C:\Users\chicharles\Documents\GitHub\ClearTrip\src\main\resources\urls.properties">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 </file>
-<file name="C:\Users\chicharles\Documents\GitHub\ClearTrip\src\test\resources\extent.properties">
-</file>
-<file name="C:\Users\chicharles\Documents\GitHub\ClearTrip\src\test\resources\log4j2.properties">
-</file>
 </checkstyle>
