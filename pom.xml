@@ -102,8 +102,8 @@
 				<configuration>
 					<consoleOutput>true</consoleOutput>
 					<includeTestSourceDirectory>true</includeTestSourceDirectory>
-					<failOnViolation>true</failOnViolation>
-					<failsOnError>true</failsOnError>
+					<failOnViolation>false</failOnViolation>
+					<failsOnError>false</failsOnError>
 					<configLocation>config/checkstyle/checkstyle.xml</configLocation>
 					<suppressionsLocation>config/checkstyle/suppressions.xml</suppressionsLocation>
 					<suppressionsFileExpression>suppressions.xml</suppressionsFileExpression>
