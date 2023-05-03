@@ -16,6 +16,7 @@ public class checkNetowkSpeed extends TestEnvironment {
 	public void verifyCELLULAR2GNetowkSpeed(Method method) {
 		startTest(method.getName(), "checkNetowkSpeed");
 		
+		
 		//The CDP command to fake a network connection is Network.emulateNetworkConditions.
 		DevTools devTools = ((ChromeDriver) driver).getDevTools();
 		devTools.createSession();
