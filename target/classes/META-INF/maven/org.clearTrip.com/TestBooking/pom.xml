@@ -17,7 +17,7 @@
 		<log4j-version>2.14.1</log4j-version>
 		<extentreports-version>5.0.8</extentreports-version>
 		<maven-surefire-plugin-version>3.0.0-M5</maven-surefire-plugin-version>
-		<sonar.java.checkstyle.reportPaths>${project.basedir}/target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
+		<sonar.java.checkstyle.reportPaths>./target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
 	</properties>
 
 	<dependencies>

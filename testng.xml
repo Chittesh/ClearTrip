@@ -8,6 +8,7 @@
     </listeners>
 
 	<parameter name="runLocation" value="local" />
+	
 <!-- 	<parameter name="runLocation" value="deviceMode" /> -->
 	
 	<parameter name="browserName" value="chrome" />
