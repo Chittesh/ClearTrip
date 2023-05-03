@@ -11,9 +11,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import utils.logs.Log;
 
-public class BookingPage extends BasePage {
+
+public class HomeBookingPage extends BasePage {
 
 	@FindBy(xpath = "//*[@data-test-attrib='onward-view']")
 	private WebElement elmOnwardView;
@@ -32,7 +32,7 @@ public class BookingPage extends BasePage {
 	 * @Description : Constructor of HomePage
 	 * @param driver
 	 */
-	public BookingPage(WebDriver driver) {
+	public HomeBookingPage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}

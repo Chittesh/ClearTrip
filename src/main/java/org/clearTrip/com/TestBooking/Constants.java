@@ -1,6 +1,6 @@
 package org.clearTrip.com.TestBooking;
 
-public class StaticConstantClass {
+public class Constants {
 
 	public static final String fromLocation = "New Delhi, IN";
 	public static final String toLocation = "Dubai, AE";
