@@ -8,3 +8,4 @@
 *.log # BlueJ files #
 *.ctxt
 
+/target/
